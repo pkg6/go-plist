@@ -1,4 +1,4 @@
-module howett.net/plist
+module github.com/pkg6/go-plist
 
 go 1.12
 

@@ -7,6 +7,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/pkg6/go-plist"
 	"io"
 	"os"
 	"path/filepath"
@@ -16,7 +17,6 @@ import (
 
 	"github.com/jessevdk/go-flags"
 	"gopkg.in/yaml.v1"
-	"howett.net/plist"
 )
 
 //import "github.com/mgutz/ansi"
